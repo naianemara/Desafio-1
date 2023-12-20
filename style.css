@@ -1,0 +1,140 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: center;
+    color: #17233D;
+    margin-right: 32px;
+}
+
+.botao-header {
+    width: 124px;
+    height: 51px;
+    border: 1px;
+    background: #4CB538;
+    border-radius: 4px;
+    color: #FFFFFF;
+
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.5961538553237915px;
+    text-align: left;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #4B505A;
+    margin: 20px 0;
+}
+
+.link-main {
+    width: 112px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #6FBF44;
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .botao-header {
+        width: 91px;
+        height: 31px;
+        margin-left: 235px;
+
+
+    }
+
+    img {
+        width: 312px;
+        height: 288px;
+        display: block;
+        margin-left: 10%;
+        position: absolute;
+        margin-top: 439px;
+    }
+
+    section {
+        display: block;
+        margin-top: 47px;
+
+    }
+
+    h1 {
+        width: 241px;
+        height: 72px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height:45px;
+        text-align: center;
+    }
+
+    p {
+        width: 278px;
+        height: 134px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 54px;
+        margin-left: -21px;
+    }
+    
+
+    .link-main {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 92px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-left: 58px;
+
+    }
+}
